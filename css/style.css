@@ -1,0 +1,25 @@
+.marketing{
+  display:none;
+}
+
+.footer{
+  text-align: center;
+}
+
+#unlist{
+  display: none;
+}
+
+.clickable{
+  cursor: pointer;
+  color: blue;
+}
+
+/*underlines when you hover on clickable text*/
+.clickable:hover{
+  text-decoration: underline;
+}
+
+.info{
+  display:none;
+}
