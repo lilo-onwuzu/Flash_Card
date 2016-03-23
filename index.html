@@ -1,5 +1,12 @@
+<!-- Link to bootstraps core CSS file. My custom styles CSS file, JQuery Library and Javascript file. All are in the job folder. Bootstrap customs classes e.g nav, nav pills, pull-right, btn, row, col are used to link to bootstraps without linking to custom css file. Do not use this these classes to style in your customs CSS file -->
+
+<!-- HTML language format is [//selector <div/span/link/a/img/h4/p/head/body/footer/em/strong/ul/li/ol etc class/id/href/src/rel/role= "name">Object</selector> -->
+<!-- Spans are divs that are used inline and take precedence in CSS for styling. ID's are unique classes and take precedence in CSS -->
+
 <!DOCTYPE html>
 <html>
+
+<!-- Head Section contains title (Webpage name) and links -->
   <head>
     <title>Narrow Jumbotron Template for Bootstrap</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -10,6 +17,9 @@
 
   <body>
     <div class="container">
+
+<!-- Top header section. h3 needs to come after nav (pulled right) so they can be side by side -->
+<!-- Home is "active" (bootstrap class) to highlight it -->
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
@@ -21,30 +31,50 @@
         <h3 class="text-muted">Using Javascript and JQuery</h3>
       </div>
 
+<!-- Jumbotron section. Jumbotron is bootstrap class used to make a boxed sign on the page -->
       <div class="jumbotron">
-        <h1>Javascript - JQuery</h1>
+        <h1 class= "pull-right">JQuery</h1>
+        <h1>Javascript</h1>
         <p class="lead">Learn some important concepts used in <em>JavaScript</em> and <em>JQuery</em> to help jumpstart your web programming skills</p>
-        <p id="list"><a class="btn btn-lg btn-success" href="#" role="button">Click to start learning</a></p>
-        <p id="unlist"><a class="btn btn-lg btn-success" href="#" role="button">Click here to hide</a></p>
+        <p class="showTerms"><a class="btn btn-lg btn-success" href="#" role="button">Click to start learning</a></p>
+        <p class="hideTerms"><a class="btn btn-lg btn-success" href="#" role="button">Click to hide</a></p>
       </div>
 
+<!-- <//Writing Section. Row= Column1, Col2//> -->
       <div class="row marketing">
           <div class="col-lg-6">
-            <span class="test">
-            <h4><span class="clickable">JavaScript (JS)</span></h4>
             <ul>
-            <p><span class="info">JavaScript helps you move from a static web page created through html and css to a <em>dynamic</em> and <em>interactive</em> web programming</span></p>
+<!-- <//li includes bulletpoints. ol includes numbers. Don't want either//> -->
+              <div class="Javascript">
+                <h4><span class="clickable">JavaScript (JS)</span></h4>
+                <p id="javascript">JavaScript helps you move from a static web page created through HTML and CSS to <em>dynamic</em> and <em>interactive</em> style web programming</p>
+              </div>
+              <div class="JQuery">
+                <h4><span class="clickable">JQuery</span></h4>
+                <p id="jQuery">JQuery contains a library of events that allows the web program to move from one <a href="#"><em>DOM (Direct Object Manipulator</em></a> to another. You can think of this as moving from one "state" to another)</p>
+              </div>
             </ul>
-          </span>
           </div>
-          <div class="col-lg-6">
-            <h4><span class="clickable">JQuery</span></h4>
-            <ul>
-            <p><span class="info">JQuery contains a library of events that allows the web program to move from one <a href="#"><em>DOM (Direct Object Manipulator</em></a> to another. You can think of this as moving from one "state" to another)</span></p>
-          </ul>
-          </div>
-      </div>
 
+          <div class="col-lg-6">
+            <ul>
+              <div class="NaN">
+                <h4><span class="clickable">NaN</span></h4>
+                <p id="nan">"NaN" is a dedicated number in HTML that is decidated to non-numbers. It stands for <em><strong>N</strong>ot a <strong>N</strong>umber</em>"</p>
+              </div>
+              <div class="Alert">
+                <h4><span class="clickable">Alert</span></h4>
+                <p id="alert">The function <em><strong>Alert</strong>("insert string")</em> is used to display a message in the browser. It can be used in HTML or as a function in Javascript.
+                Example javascript code:
+                $("Variable").click(function(){
+                  alert("this is a warning!")
+                  });</p>
+              </div>
+            </ul>
+          </div>
+        </div>
+
+<!-- Finally Footer Section -->
       <footer class="footer">
         <p>&copy; Onwuzu, LPO Inc.</p>
       </footer>

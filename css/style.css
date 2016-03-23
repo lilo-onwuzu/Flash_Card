@@ -1,25 +1,26 @@
+/*HTML classes are called in CSS as ".class-name"*/
+/*HTML id's are called in CSS as "#ID-name"*/
+/*HTML selectors are called in CSS as "selector-name"*/
+/*least specific to most specific with spaces in between*/
+
 .marketing{
   display:none;
+/*hides row section in the first static page*/
 }
-
-.footer{
+footer{
   text-align: center;
 }
-
-#unlist{
+.hideTerms{
   display: none;
 }
-
 .clickable{
   cursor: pointer;
   color: blue;
 }
-
-/*underlines when you hover on clickable text*/
 .clickable:hover{
   text-decoration: underline;
+/*underlines when you hover on clickable text*/
 }
-
-.info{
+ul div p {
   display:none;
 }
