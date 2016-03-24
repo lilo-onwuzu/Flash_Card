@@ -32,4 +32,24 @@ $(document).ready(function(){
   $(".Alert .clickable").click(function(){
     $("#alert").slideToggle();
   });
+  $(".lightBackground").click(function(){
+    $("body").removeClass();
+    $("body").addClass("lightPage");
+    //add and remove class can do interactive styling or make interactive changes
+  });
+  $(".darkBackground").click(function(){
+    $("body").removeClass();
+    $("body").addClass("darkPage");
+  });
+  $(".active").click(function(){
+    $("body").removeClass();
+    $("body").addClass("defaultPage");
+  });
+  $(".col-lg-6 p").click(function(){
+    $(this).toggleClass("boxText");
+  });
+
+  $(".operator").click(function(){
+        $(".col-lg-6").append("Operator");
+  });
 });

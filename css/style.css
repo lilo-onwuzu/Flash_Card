@@ -14,6 +14,7 @@ footer{
   display: none;
 }
 .clickable{
+  font-size: 20;
   cursor: pointer;
   color: blue;
 }
@@ -21,6 +22,38 @@ footer{
   text-decoration: underline;
 /*underlines when you hover on clickable text*/
 }
-ul div p {
+.marketing div p {
   display:none;
+}
+.darkPage {
+  background-color: black;
+  text-decoration-color: white;
+}
+.lightPage {
+  background-color: grey;
+  text-decoration-color: black;
+}
+.defaultPage {
+  background-color: none;
+}
+.boxText {
+  border: 1px solid black;
+  background-color: gold;
+}
+.header{
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+body{
+  font-family: sans-serif;
+}
+p{
+  font-size: 14;
+}
+
+.clickToAdd{
+  font-size: 16px;
+}
+h1{
+  text-align: center;
 }
