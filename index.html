@@ -2,6 +2,7 @@
 
 <!-- HTML language format is [//selector <div/span/link/a/img/h4/p/head/body/footer/em/strong/ul/li/ol etc class/id/href/src/rel/role= "name">Object</selector> -->
 <!-- Spans are divs that are used inline and take precedence in CSS for styling. ID's are unique classes and take precedence in CSS -->
+<!--Variable Scope: Global variables are defined outside of functions. Local variables are created and destroyed within functions -->
 
 <!DOCTYPE html>
 <html>
@@ -44,33 +45,38 @@
 <!-- Click to Add Section to append terms to the list -->
 
 <!-- Column Section -->
-        <div class="col-lg-6">
+        <div class="col-lg-8">
+          <h3>Learning List</h3>
           <div class="Javascript">
-            <h4><span class="clickable">JavaScript (JS)</span></h4>
+            <div class="clickable">JavaScript (JS)</div>
             <p id="javascript">JavaScript helps you move from a static web page created through HTML and CSS to <em>dynamic</em> and <em>interactive</em> style web programming</p>
           </div>
           <div class="JQuery">
-            <h4><span class="clickable">JQuery</span></h4>
+            <div class="clickable">JQuery</div>
             <p id="jQuery">JQuery contains a library of events that allows the web program to move from one <a href="#"><em>DOM (Direct Object Manipulator</em></a> to another. You can think of this as moving from one "state" to another)</p>
           </div>
           <div class="NaN">
-            <h4><span class="clickable">NaN</span></h4>
+            <div class="clickable">NaN</div>
             <p id="nan">"NaN" is a dedicated number in HTML that is decidated to non-numbers. It stands for <em><strong>N</strong>ot a <strong>N</strong>umber</em>"</p>
           </div>
           <div class="Alert">
-            <h4><span class="clickable">Alert</span></h4>
+            <div class="clickable">Alert</div>
             <p id="alert">The function <em><strong>Alert</strong>("insert string")</em> is used to display a message in the browser. It can be used in HTML or as a function in Javascript. Example javascript code:$("Variable").click(function(){alert("this is a warning!")});</p>
+          </div>
+          <div class="addText">
+            <div></div>
           </div>
         </div>
 <!-- Second Column for appendTerms -->
         <!-- <div class="col-lg-6"> -->
+        <div class="col-lg-4">
           <ul class= "appendTerms">Click some terms below to add to the learning list
             <li class="operator"><a class="btn btn-sm" href="#" role="button">Operator</a></li>
             <li class="undefined"><a class="btn btn-sm" href="#" role="button">Undefined</a></li>
             <li class="functions"><a class="btn btn-sm" href="#" role="button">Functions</a></li>
             <li class="git"><a class="btn btn-sm" href="#" role="button">Git Branching</a></li>
           </ul>
-        <!-- </div> -->
+        </div>
       </div>
 <!-- End row marketing section -->
 

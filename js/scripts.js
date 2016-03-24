@@ -48,8 +48,25 @@ $(document).ready(function(){
   $(".col-lg-6 p").click(function(){
     $(this).toggleClass("boxText");
   });
-
   $(".operator").click(function(){
-        $(".col-lg-6").append("Operator");
+        $(".addText").toggle();
+        $(".addText").text("Operator");
+        $(".addText").addClass("clickable");
+        // If add class were only done once and not removed, it will apply forward as long as you click Operator first. Adding it below to fix that
+  });
+  $(".undefined").click(function(){
+        $(".addText").toggle();
+        $(".addText").text("Undefined");
+        $(".addText").addClass("clickable");
+  });
+  $(".functions").click(function(){
+        $(".addText").toggle();
+        $(".addText").text("Functions");
+        $(".addText").addClass("clickable");
+  });
+  $(".git").click(function(){
+        $(".addText").toggle();
+        $(".addText").text("Git Branching");
+        $(".addText").addClass("clickable");
   });
 });
