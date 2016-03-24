@@ -45,7 +45,7 @@ $(document).ready(function(){
     $("body").removeClass();
     $("body").addClass("defaultPage");
   });
-  $(".col-lg-6 p").click(function(){
+  $(".col-lg-8 p").click(function(){
     $(this).toggleClass("boxText");
   });
   $(".operator").click(function(){
