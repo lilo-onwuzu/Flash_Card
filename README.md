@@ -1,6 +1,6 @@
 
 ## _Title_
-	Epicodus- Introduction to Programming - Porfolio Page
+	Epicodus- Introduction to Programming - Flash Cards
 	
 #### _Creator_
 	Lilo Onwuzu 
@@ -9,7 +9,11 @@
 	03.24.2016
 
 #### _Description_
-This code lists some Javascript and JQuery terms. It contains many hidden elements that when clicked on, display more information using Javascript. Append additional terms to the learning list by clicking on them. The new items are added in the same format as the rest of the list. There are options to darken or lighten the background of the webpage to your liking as well as change to the default 
+	This site uses JS to build a dynamic Flash Card site. The site lists some Javascript and JQuery terms. 
+	It contains many hidden elements that when clicked on, display more information. 
+	Append additional terms to the learning list by clicking on them. 
+	The new items are added in the same format as the rest of the list. 
+	There are options customize the background of the webpage as well.
 
 #### _Setup/Installation Requirements_
 	Clone this repository before setting up
