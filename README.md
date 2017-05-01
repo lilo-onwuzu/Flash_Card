@@ -1,32 +1,31 @@
-# _Flash Card Site_
 
-#### _Flash Card Site for Javascript and JQuery Tutorial_
+## _Title_
+	Epicodus- Introduction to Programming - Porfolio Page
+	
+#### _Creator_
+	Lilo Onwuzu 
+	
+#### _Date_
+	03.24.2016
 
-#### By _**Ililochi Onwuzu**_
+#### _Description_
+	This code lists some Javascript and JQuery terms. It contains many hidden elements that when clicked on, display more information using Javascript. Append additional terms to the learning list by clicking on them. The new items are added in the same format as the rest of the list. There are options to darken or lighten the background of the webpage to your liking as well as change to the default 
 
-## Description
+#### _Setup/Installation Requirements_
+	Clone this repository before setting up
+	Click to view description of the listed terms
 
-_This code lists some Javascript and JQuery terms. It contains many hidden elements that when clicked on, display more information using Javascript. This was used to practice Javascript at Epicodus (Week 2). Append additional terms to the learning list by clicking on them. The new items are added in the same format as the rest of the list. There are options to darken or lighten the background of the webpage to your liking as well as change to the default_
+#### _Known Bugs_
+ 	None
 
-## Setup/Installation Requirements
+#### _Support and contact details_
+	lpr422@gmail.com
+	
+#### _Technologies Used_
+	HTML, Custom CSS, Bootstrap CSS, Javascript, JQuery
 
-* _Click to view description of the listed terms_
+#### _License_
+	This software is licensed under the MIT license
+	Copyright (c) 2016 IPONWUZU
 
 
-## Known Bugs
-
-_None_
-
-## Support and contact details
-
-_lpr422@gmail.com_
-
-## Technologies Used
-
-_HTML, CSS, Javascript, JQuery_
-
-### License
-
-*This Software Is Licensed Under MIT.*
-
-Copyright (c) 2015 **_Onwuzu, LPO Inc._**
