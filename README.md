@@ -9,7 +9,9 @@
 	03.24.2016
 
 #### _Description_
-	This site uses JS to build a dynamic Flash Card site. The site lists some Javascript and JQuery terms. 
+	This site uses JavaScript to build a dynamic (show/hide/toggle operations) Flash Card site. 
+	Javascript is Model, HTML is View and JQuery is Controller in this MVC realization.
+	The Flash Cards words are some Javascript and JQuery terms. 
 	It contains many hidden elements that when clicked on, display more information. 
 	Append additional terms to the learning list by clicking on them. 
 	The new items are added in the same format as the rest of the list. 
