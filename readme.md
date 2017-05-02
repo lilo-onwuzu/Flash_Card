@@ -18,7 +18,8 @@
 	There are options customize the background of the webpage as well.
 
 #### _Setup/Installation Requirements_
-	Clone this repository before setting up
+	Clone this repository
+	Open index.html file in browser
 	Click to view description of the listed terms
 
 #### _Known Bugs_
